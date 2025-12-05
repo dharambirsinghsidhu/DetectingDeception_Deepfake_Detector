@@ -172,7 +172,7 @@ Requirements for the software and other tools to build, test and push
     cd EntropyVision_Deepfake_Detector
     ```
 
-3.  **Create and Activate a Virtual Environment:**
+2.  **Create and Activate a Virtual Environment:**
 
     It's highly recommended to use a virtual environment to manage project dependencies.
 
@@ -189,7 +189,7 @@ Requirements for the software and other tools to build, test and push
         source venv/bin/activate
         ```
 
-4.  **Install Python Dependencies:**
+3.  **Install Python Dependencies:**
 
     First, ensure your `pip` installer is up to date, then install the required Python libraries.
 
@@ -199,8 +199,13 @@ Requirements for the software and other tools to build, test and push
     pip install streamlit
     ```
 
-End with an example of getting some data out of the system or using it
-for a little demo
+4.  **Run the Application:**
+
+    Launch the Streamlit interface:
+
+    ```bash
+    streamlit run app.py
+    ```
 
 ---
 
