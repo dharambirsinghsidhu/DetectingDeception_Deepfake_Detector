@@ -227,21 +227,6 @@ When you run `app2.py`, it will check for the presence of the model file (e.g., 
 
 <br>
 
-## ▶️ Running the Application
-
-Once everything is installed, starting the app is simple:
-
-1.  Go to your project's main folder in your terminal.
-2.  Type this command and press Enter:
-    ```bash
-    streamlit run app2.py --server.enableCORS false --server.enableXsrfProtection false
-    ```
-3.  A new tab will automatically open in your web browser showing the application, usually at `http://localhost:8501`.
-
----
-
-<br>
-
 ## 💡 Using the Deepfake Detector (EntropyVision)
 
 Our tool is designed for easy deepfake detection:
